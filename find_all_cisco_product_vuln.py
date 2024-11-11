@@ -1,11 +1,5 @@
 import filehandler_helper as fh
-
-def main() -> None:
-    regex_string = "cisco"
-    output = 'search_cisco_vuln.txt'
-    critical_string_regex = '"baseSeverity": "CRITICAL"'
-    search_for_vuln(regex_string, output, critical_string_regex)
-
+  
 def search_for_vuln(search_word: str, output_file: str, critical_confirmed: str) -> None:
     search_list = list_with_files()
 
@@ -38,6 +32,3 @@ def list_with_files() -> list:
         for f in file:
             list_with_all_files_to_search.append(fh.return_filepath_joined_with_file(folder, f))
     return list_with_all_files_to_search
-
-if __name__ == "__main__":
-    main()
