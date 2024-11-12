@@ -1,8 +1,9 @@
 import filehandler_helper as fh
-  
+import re
+# TODO Kan gjøre om å bruke regex istendefor å søke linje for linje i fila. Det e nok litt raskere vil æ tro.. 
 def search_for_vuln(search_word: str, output_file: str, critical_confirmed: str) -> None:
     search_list = list_with_files()
-
+    product_string = '"product":'
     for filepath in search_list:
         word = False
         critical = False
@@ -12,9 +13,11 @@ def search_for_vuln(search_word: str, output_file: str, critical_confirmed: str)
                     word = True
                 if critical_confirmed in line:
                     critical = True
+                if product_string  in line:
+                    product = line
                 if word and critical:
                     with open(output_file, 'a') as output:
-                        output.write(f"{critical_confirmed} : {filepath}\n")
+                        output.write(f"Vulnerability found in: {product}, {critical_confirmed} ({filepath})\n")
                     break
 
 def list_with_files() -> list:
