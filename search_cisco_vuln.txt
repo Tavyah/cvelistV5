@@ -26,3 +26,31 @@ Vulnerability found in:                     "product": "Cisco Mobility Express",
 , "baseSeverity": "CRITICAL" (C:\Users\tiril\Documents\GitHub\cvelistV5\cves\2023\20xxx\CVE-2023-20252.json)
 Vulnerability found in:                     "product": "n/a",
 , "baseSeverity": "CRITICAL" (C:\Users\tiril\Documents\GitHub\cvelistV5\cves\2023\31xxx\CVE-2023-31488.json)
+Vulnerability found in:                     "product": "Cisco Small Business RV Series Router Firmware",
+, "baseSeverity": "CRITICAL" (C:\Users\tiril\Documents\GitHub\cvelistV5\cves\2023\20xxx\CVE-2023-20025.json)
+Vulnerability found in:                     "product": "Cisco Secure Endpoint Private Cloud Administration Portal",
+, "baseSeverity": "CRITICAL" (C:\Users\tiril\Documents\GitHub\cvelistV5\cves\2023\20xxx\CVE-2023-20032.json)
+Vulnerability found in:                     "product": "Cisco Firepower Management Center",
+, "baseSeverity": "CRITICAL" (C:\Users\tiril\Documents\GitHub\cvelistV5\cves\2023\20xxx\CVE-2023-20048.json)
+Vulnerability found in:                     "product": "Cisco IP Phones with Multiplatform Firmware ",
+, "baseSeverity": "CRITICAL" (C:\Users\tiril\Documents\GitHub\cvelistV5\cves\2023\20xxx\CVE-2023-20078.json)
+Vulnerability found in:                     "product": "Cisco IP Phones with Multiplatform Firmware ",
+, "baseSeverity": "CRITICAL" (C:\Users\tiril\Documents\GitHub\cvelistV5\cves\2023\20xxx\CVE-2023-20079.json)
+Vulnerability found in:                     "product": "Cisco Emergency Responder",
+, "baseSeverity": "CRITICAL" (C:\Users\tiril\Documents\GitHub\cvelistV5\cves\2023\20xxx\CVE-2023-20101.json)
+Vulnerability found in:                     "product": "Cisco TelePresence Video Communication Server (VCS) Expressway",
+, "baseSeverity": "CRITICAL" (C:\Users\tiril\Documents\GitHub\cvelistV5\cves\2023\20xxx\CVE-2023-20105.json)
+Vulnerability found in:                     "product": "Cisco Small Business IP Phones ",
+, "baseSeverity": "CRITICAL" (C:\Users\tiril\Documents\GitHub\cvelistV5\cves\2023\20xxx\CVE-2023-20126.json)
+Vulnerability found in:                     "product": "Cisco TelePresence Video Communication Server (VCS) Expressway ",
+, "baseSeverity": "CRITICAL" (C:\Users\tiril\Documents\GitHub\cvelistV5\cves\2023\20xxx\CVE-2023-20192.json)
+Vulnerability found in:                     "product": "Cisco IOS XE Software",
+, "baseSeverity": "CRITICAL" (C:\Users\tiril\Documents\GitHub\cvelistV5\cves\2023\20xxx\CVE-2023-20198.json)
+Vulnerability found in:                     "product": "Cisco SD-WAN vManage",
+, "baseSeverity": "CRITICAL" (C:\Users\tiril\Documents\GitHub\cvelistV5\cves\2023\20xxx\CVE-2023-20214.json)
+Vulnerability found in:                     "product": "Cisco BroadWorks",
+, "baseSeverity": "CRITICAL" (C:\Users\tiril\Documents\GitHub\cvelistV5\cves\2023\20xxx\CVE-2023-20238.json)
+Vulnerability found in:                     "product": "Cisco Mobility Express",
+, "baseSeverity": "CRITICAL" (C:\Users\tiril\Documents\GitHub\cvelistV5\cves\2023\20xxx\CVE-2023-20252.json)
+Vulnerability found in:                     "product": "n/a",
+, "baseSeverity": "CRITICAL" (C:\Users\tiril\Documents\GitHub\cvelistV5\cves\2023\31xxx\CVE-2023-31488.json)

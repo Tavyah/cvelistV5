@@ -1,5 +1,12 @@
 import filehandler_helper as fh
 import re
+
+def main():
+    regex_string = "cisco"
+    output = 'search_cisco_vuln.txt'
+    critical_string_regex = '"baseSeverity": "CRITICAL"'
+    search_for_vuln(regex_string, output, critical_string_regex)
+
 # TODO Kan gjøre om å bruke regex istendefor å søke linje for linje i fila. Det e nok litt raskere vil æ tro.. 
 def search_for_vuln(search_word: str, output_file: str, critical_confirmed: str) -> None:
     search_list = list_with_files()
@@ -35,3 +42,6 @@ def list_with_files() -> list:
         for f in file:
             list_with_all_files_to_search.append(fh.return_filepath_joined_with_file(folder, f))
     return list_with_all_files_to_search
+
+if __name__ == "__main__":
+    main()
